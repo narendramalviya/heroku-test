@@ -20,7 +20,7 @@ const app = express();
 // 	// we're connected!
 // 	console.log("db connected");
 // });
-
+	console.log("test");
 // configuration for multer ,file handling middleware
 // var upload = multer({ dest: "uploads" });
 
