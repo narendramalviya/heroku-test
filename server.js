@@ -32,7 +32,9 @@ app.use(cors());
 app.get("/", (req, res) => {
 	res.json({m:"Welcome home"});
 });
-
+app.get("/test", (req, res) => {
+	res.json({m:"test route"});
+});
 const port = process.env.PORT || 7000;
 app.listen(port, () => {
 	console.log(`server running at port ${port}`);
